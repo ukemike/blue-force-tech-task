@@ -1,9 +1,12 @@
 {
   "name": "blue_tech_task",
   "version": "1.0.0",
-  "description": "MERN shopping cart app",
+  "description": "Task",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "14.15.5"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
